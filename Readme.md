@@ -1,3 +1,6 @@
+# About
+Boggle Game with frontend developed in React and backend on Ruby on Rails.
+
 # Instructions to Run
 1. Clone the following repo and move to project folder: 
 >>> git clone https://github.com/santoshkc/BoggleMerge.git
