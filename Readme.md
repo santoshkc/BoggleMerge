@@ -26,6 +26,6 @@ Boggle Game with frontend developed in React and backend on Ruby on Rails.
 * React 16.13.1(Created using create-react-app)
 
 ### Steps to run
-1. Move to SimpleBoggle and install dependencies using **npm install**
+1. Move to SimpleBoggleApp directory and install dependencies using **npm install**
 2. Run **npm test** to run test cases
 3. Run **npm start** to run front end.
