@@ -6,7 +6,13 @@
 3. Update all files and checkout to master
 >>> git submodule foreach git pull origin master   
 >>> git submodule foreach git checkout master
-4. Move to ruby_rails_dictionary_api directory and install dependencies using **bundle install**  
-5. Move to SimpleBoggle and install dependencies using **npm install**
-6. Run **npm test** to run test cases
-7. Run **npm start** to run front end.
+
+## For Backend(Ruby on the Rails) 
+1. Move to ruby_rails_dictionary_api directory and install dependencies using **bundle install**
+2. Run **rake test** to run test cases.
+3. Run **rails server -p 4000** to start backend server(frontend uses hardcoded port 4000)
+
+## For FrontEnd(React)
+1. Move to SimpleBoggle and install dependencies using **npm install**
+2. Run **npm test** to run test cases
+3. Run **npm start** to run front end.
