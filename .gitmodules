@@ -1,0 +1,8 @@
+[submodule "SimpleBoggleApp"]
+	path = SimpleBoggleApp
+	url = https://github.com/santoshkc/SimpleBoggleApp.git
+	branch = master
+[submodule "ruby_rails_dictionary_api"]
+	path = ruby_rails_dictionary_api
+	url = https://github.com/santoshkc/ruby_rails_dictionary_api.git
+	branch = master
