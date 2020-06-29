@@ -1,5 +1,20 @@
 # About
-Boggle Game with frontend developed in React and backend on Ruby on Rails.
+Boggle Game with frontend developed in React and backend in Ruby on Rails.
+
+## Features
+* 4x4 game board
+* User can type the words which they think they found.
+* Client side validation to check word is valid. Server side validation to check if word is actually available in dictionary.  
+If both validation is successfull, then word in added to successful word list.
+* Error displayed if word is invalid.
+* Successfully matched words with corresponding score are always shown in table.
+* When timer runs out, user is no longer allowed to enter word.
+
+## Extra features
+* Board letters can be clicked to be used as input.
+* At server side, dictionary is loaded in trie datastructure for efficient word lookup.
+* Ability to reset game without refreshing browser.
+* Ability to pause game(for quick break)
 
 # Instructions to Run
 1. Clone the following repo and move to project folder:  
